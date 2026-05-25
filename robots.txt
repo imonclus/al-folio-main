@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://imonclus.github.io/al-folio/sitemap.xml
+Sitemap: https://imonclus.github.io/al-folio-main/sitemap.xml
