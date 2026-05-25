@@ -83,17 +83,6 @@ ninja.data = [{
             window.location.href = "/al-folio-main/blog/2025/plotly/";
           
         },
-      },{id: "post-plotly-md-zone",
-        
-          title: "Plotly.mdzone",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/al-folio-main/blog/2025/plotly.md-Zone/";
-          
-        },
       },{id: "post-a-post-with-image-galleries",
         
           title: "a post with image galleries",
@@ -103,17 +92,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/al-folio-main/blog/2024/photo-gallery/";
-          
-        },
-      },{id: "post-photo-gallery-md-zone",
-        
-          title: "Photo Gallery.mdzone",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/al-folio-main/blog/2024/photo-gallery.md-Zone/";
           
         },
       },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
@@ -138,17 +116,6 @@ ninja.data = [{
             window.location.href = "/al-folio-main/blog/2024/tabs/";
           
         },
-      },{id: "post-tabs-md-zone",
-        
-          title: "Tabs.mdzone",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/al-folio-main/blog/2024/tabs.md-Zone/";
-          
-        },
       },{id: "post-a-post-with-typograms",
         
           title: "a post with typograms",
@@ -158,17 +125,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/al-folio-main/blog/2024/typograms/";
-          
-        },
-      },{id: "post-typograms-md-zone",
-        
-          title: "Typograms.mdzone",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/al-folio-main/blog/2024/typograms.md-Zone/";
           
         },
       },{id: "post-a-post-that-can-be-cited",
@@ -182,17 +138,6 @@ ninja.data = [{
             window.location.href = "/al-folio-main/blog/2024/post-citation/";
           
         },
-      },{id: "post-post-citation-md-zone",
-        
-          title: "Post Citation.mdzone",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/al-folio-main/blog/2024/post-citation.md-Zone/";
-          
-        },
       },{id: "post-a-post-with-pseudo-code",
         
           title: "a post with pseudo code",
@@ -202,17 +147,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/al-folio-main/blog/2024/pseudocode/";
-          
-        },
-      },{id: "post-pseudocode-md-zone",
-        
-          title: "Pseudocode.mdzone",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/al-folio-main/blog/2024/pseudocode.md-Zone/";
           
         },
       },{id: "post-a-post-with-code-diff",
@@ -248,39 +182,6 @@ ninja.data = [{
             window.location.href = "/al-folio-main/blog/2024/vega-lite/";
           
         },
-      },{id: "post-vega-lite-md-zone",
-        
-          title: "Vega Lite.mdzone",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/al-folio-main/blog/2024/vega-lite.md-Zone/";
-          
-        },
-      },{id: "post-code-diff-md-zone",
-        
-          title: "Code Diff.mdzone",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/al-folio-main/blog/2024/code-diff.md-Zone/";
-          
-        },
-      },{id: "post-advanced-images-md-zone",
-        
-          title: "Advanced Images.mdzone",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/al-folio-main/blog/2024/advanced-images.md-Zone/";
-          
-        },
       },{id: "post-a-post-with-geojson",
         
           title: "a post with geojson",
@@ -314,39 +215,6 @@ ninja.data = [{
             window.location.href = "/al-folio-main/blog/2024/chartjs/";
           
         },
-      },{id: "post-geojson-map-md-zone",
-        
-          title: "Geojson Map.mdzone",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/al-folio-main/blog/2024/geojson-map.md-Zone/";
-          
-        },
-      },{id: "post-echarts-md-zone",
-        
-          title: "Echarts.mdzone",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/al-folio-main/blog/2024/echarts.md-Zone/";
-          
-        },
-      },{id: "post-chartjs-md-zone",
-        
-          title: "Chartjs.mdzone",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/al-folio-main/blog/2024/chartjs.md-Zone/";
-          
-        },
       },{id: "post-a-post-with-tikzjax",
         
           title: "a post with TikZJax",
@@ -356,17 +224,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/al-folio-main/blog/2023/tikzjax/";
-          
-        },
-      },{id: "post-tikzjax-md-zone",
-        
-          title: "Tikzjax.mdzone",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/al-folio-main/blog/2023/tikzjax.md-Zone/";
           
         },
       },{id: "post-a-post-with-bibliography",
@@ -380,17 +237,6 @@ ninja.data = [{
             window.location.href = "/al-folio-main/blog/2023/post-bibliography/";
           
         },
-      },{id: "post-post-bibliography-md-zone",
-        
-          title: "Post Bibliography.mdzone",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/al-folio-main/blog/2023/post-bibliography.md-Zone/";
-          
-        },
       },{id: "post-a-post-with-jupyter-notebook",
         
           title: "a post with jupyter notebook",
@@ -402,17 +248,6 @@ ninja.data = [{
             window.location.href = "/al-folio-main/blog/2023/jupyter-notebook/";
           
         },
-      },{id: "post-jupyter-notebook-md-zone",
-        
-          title: "Jupyter Notebook.mdzone",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/al-folio-main/blog/2023/jupyter-notebook.md-Zone/";
-          
-        },
       },{id: "post-a-post-with-custom-blockquotes",
         
           title: "a post with custom blockquotes",
@@ -422,17 +257,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/al-folio-main/blog/2023/custom-blockquotes/";
-          
-        },
-      },{id: "post-custom-blockquotes-md-zone",
-        
-          title: "Custom Blockquotes.mdzone",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/al-folio-main/blog/2023/custom-blockquotes.md-Zone/";
           
         },
       },{id: "post-a-post-with-table-of-contents-on-a-sidebar",
@@ -457,28 +281,6 @@ ninja.data = [{
             window.location.href = "/al-folio-main/blog/2023/audios/";
           
         },
-      },{id: "post-sidebar-table-of-contents-md-zone",
-        
-          title: "Sidebar Table Of Contents.mdzone",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/al-folio-main/blog/2023/sidebar-table-of-contents.md-Zone/";
-          
-        },
-      },{id: "post-audios-md-zone",
-        
-          title: "Audios.mdzone",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/al-folio-main/blog/2023/audios.md-Zone/";
-          
-        },
       },{id: "post-a-post-with-videos",
         
           title: "a post with videos",
@@ -488,28 +290,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/al-folio-main/blog/2023/videos/";
-          
-        },
-      },{id: "post-videos-md-zone",
-        
-          title: "Videos.mdzone",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/al-folio-main/blog/2023/videos.md-Zone/";
-          
-        },
-      },{id: "post-tables-md-zone",
-        
-          title: "Tables.mdzone",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/al-folio-main/blog/2023/tables.md-Zone/";
           
         },
       },{id: "post-displaying-beautiful-tables-with-bootstrap-tables",
@@ -534,17 +314,6 @@ ninja.data = [{
             window.location.href = "/al-folio-main/blog/2023/table-of-contents/";
           
         },
-      },{id: "post-table-of-contents-md-zone",
-        
-          title: "Table Of Contents.mdzone",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/al-folio-main/blog/2023/table-of-contents.md-Zone/";
-          
-        },
       },{id: "post-a-post-with-giscus-comments",
         
           title: "a post with giscus comments",
@@ -554,17 +323,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/al-folio-main/blog/2022/giscus-comments/";
-          
-        },
-      },{id: "post-giscus-comments-md-zone",
-        
-          title: "Giscus Comments.mdzone",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/al-folio-main/blog/2022/giscus-comments.md-Zone/";
           
         },
       },{id: "post-displaying-external-posts-on-your-al-folio-blog",
@@ -589,17 +347,6 @@ ninja.data = [{
             window.location.href = "/al-folio-main/assets/pdf/example_pdf.pdf";
           
         },
-      },{id: "post-redirect-md-zone",
-        
-          title: "Redirect.mdzone",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/al-folio-main/blog/2022/redirect.md-Zone/";
-          
-        },
       },{id: "post-a-post-with-diagrams",
         
           title: "a post with diagrams",
@@ -609,17 +356,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/al-folio-main/blog/2021/diagrams/";
-          
-        },
-      },{id: "post-diagrams-md-zone",
-        
-          title: "Diagrams.mdzone",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/al-folio-main/blog/2021/diagrams.md-Zone/";
           
         },
       },{id: "post-a-distill-style-blog-post",
@@ -644,28 +380,6 @@ ninja.data = [{
             window.location.href = "/al-folio-main/blog/2020/twitter/";
           
         },
-      },{id: "post-twitter-md-zone",
-        
-          title: "Twitter.mdzone",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/al-folio-main/blog/2020/twitter.md-Zone/";
-          
-        },
-      },{id: "post-distill-md-zone",
-        
-          title: "Distill.mdzone",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/al-folio-main/blog/2018/distill.md-Zone/";
-          
-        },
       },{id: "post-a-post-with-disqus-comments",
         
           title: "a post with disqus comments",
@@ -688,28 +402,6 @@ ninja.data = [{
             window.location.href = "/al-folio-main/blog/2015/math/";
           
         },
-      },{id: "post-math-md-zone",
-        
-          title: "Math.mdzone",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/al-folio-main/blog/2015/math.md-Zone/";
-          
-        },
-      },{id: "post-disqus-comments-md-zone",
-        
-          title: "Disqus Comments.mdzone",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/al-folio-main/blog/2015/disqus-comments.md-Zone/";
-          
-        },
       },{id: "post-a-post-with-code",
         
           title: "a post with code",
@@ -719,17 +411,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/al-folio-main/blog/2015/code/";
-          
-        },
-      },{id: "post-code-md-zone",
-        
-          title: "Code.mdzone",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/al-folio-main/blog/2015/code.md-Zone/";
           
         },
       },{id: "post-a-post-with-images",
@@ -743,17 +424,6 @@ ninja.data = [{
             window.location.href = "/al-folio-main/blog/2015/images/";
           
         },
-      },{id: "post-images-md-zone",
-        
-          title: "Images.mdzone",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/al-folio-main/blog/2015/images.md-Zone/";
-          
-        },
       },{id: "post-a-post-with-formatting-and-links",
         
           title: "a post with formatting and links",
@@ -763,17 +433,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/al-folio-main/blog/2015/formatting-and-links/";
-          
-        },
-      },{id: "post-formatting-and-links-md-zone",
-        
-          title: "Formatting And Links.mdzone",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/al-folio-main/blog/2015/formatting-and-links.md-Zone/";
           
         },
       },{id: "news-a-simple-inline-announcement",
@@ -843,48 +502,6 @@ ninja.data = [{
           section: "Teachings",handler: () => {
               window.location.href = "/al-folio-main/teachings/introduction-to-machine-learning/";
             },},{
-        id: 'social-cv',
-        title: 'CV',
-        section: 'Socials',
-        handler: () => {
-          window.open("/al-folio-main/assets/pdf/example_pdf.pdf", "_blank");
-        },
-      },{
-        id: 'social-email',
-        title: 'email',
-        section: 'Socials',
-        handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
-        },
-      },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
-        },
-      },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/al-folio-main/feed.xml", "_blank");
-        },
-      },{
-        id: 'social-scholar',
-        title: 'Google Scholar',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
-        },
-      },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
-        },
-      },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
