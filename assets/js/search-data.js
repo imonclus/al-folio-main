@@ -3,8 +3,8 @@ const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
 ninja.data = [{
-    id: "nav-sobre-mi",
-    title: "sobre mi",
+    id: "nav-inicio",
+    title: "inicio",
     section: "Navigation",
     handler: () => {
       window.location.href = "/al-folio-main/";
