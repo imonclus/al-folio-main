@@ -1,6 +1,6 @@
 ---
 layout: about
-title: sobre mi
+title: inicio
 permalink: /
 nav: false
 subtitle: Profesor de Educación Primaria en Barcelona.
