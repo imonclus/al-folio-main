@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/al-folio-main/publications/";
           },
+        },{id: "nav-proyectos",
+          title: "proyectos",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/al-folio-main/_pages/proyectos/";
+          },
         },{id: "nav-enseñando-en",
           title: "enseñando en",
           description: "Cursos, materiales, calendario, and recursos parar clases que hago.",
@@ -30,7 +37,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/al-folio-main/teaching/";
           },
-        },{
+        },{id: "teachings-cfa-vilafranca-del-penedès",
+          title: 'CFA Vilafranca del Penedès',
+          description: "En los últimos años he trabajado en educación de adultos impartiendo Castellano A1, COMPETIC Inicial, 1, 2 y 3, Formación instrumental 1 y 2",
+          section: "Teachings",handler: () => {
+              window.location.href = "/al-folio-main/teachings/CFA%20VILAFRANCA%20DEL%20PENEDES/";
+            },},{
         id: 'social-cv',
         title: 'CV',
         section: 'Socials',
@@ -42,35 +54,35 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%69%6D%6F%6E%63%6C%75%73%31@%70%72%6F%74%6F%6E.%6D%65", "_blank");
         },
       },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
+        id: 'social-github',
+        title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
+          window.open("https://github.com/imonclus", "_blank");
         },
       },{
-        id: 'social-rss',
-        title: 'RSS Feed',
+        id: 'social-instagram',
+        title: 'Instagram',
         section: 'Socials',
         handler: () => {
-          window.open("/al-folio-main/feed.xml", "_blank");
+          window.open("https://instagram.com/imonclus", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/imonclus", "_blank");
         },
       },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
-        },
-      },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
+          window.open("https://scholar.google.com/citations?user=Xc1iqeIAAAAJ&hl=es", "_blank");
         },
       },{
       id: 'light-theme',
