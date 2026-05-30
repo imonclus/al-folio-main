@@ -37,7 +37,21 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/al-folio-main/publications/";
           },
-        },{id: "teachings-cfa-vilafranca-del-penedès",
+        },{id: "post-he-escrito-un-nuevo-artículo",
+        
+          title: "He escrito un nuevo artículo",
+        
+        description: "Nuevo artículo publicado en mi blog",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/al-folio-main/blog/2026/nuevo-articulo01/";
+          
+        },
+      },{id: "news-muy-orgulloso-de-publicar-mi-tercer-artículo-espero-que-sea-de-su-interés",
+          title: 'Muy orgulloso de publicar mi tercer artículo. Espero que sea de su interés....',
+          description: "",
+          section: "News",},{id: "teachings-cfa-vilafranca-del-penedès",
           title: 'CFA Vilafranca del Penedès',
           description: "En los últimos años he trabajado en educación de adultos impartiendo Castellano A1, COMPETIC Inicial, 1, 2 y 3, Formación instrumental 1 y 2",
           section: "Teachings",handler: () => {
