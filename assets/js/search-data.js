@@ -16,13 +16,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/al-folio-main/blog/";
           },
-        },{id: "nav-publicaciones",
-          title: "publicaciones",
-          description: "Artículos, reflexiones y recursos sobre educación y metodologías activas.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/al-folio-main/publications/";
-          },
         },{id: "nav-proyectos",
           title: "proyectos",
           description: "",
@@ -36,6 +29,13 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/al-folio-main/teaching/";
+          },
+        },{id: "nav-publicaciones",
+          title: "publicaciones",
+          description: "Artículos, reflexiones y recursos sobre educación y metodologías activas.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/al-folio-main/publications/";
           },
         },{id: "teachings-cfa-vilafranca-del-penedès",
           title: 'CFA Vilafranca del Penedès',
