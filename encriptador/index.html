@@ -1,0 +1,136 @@
+<!DOCTYPE html> <html lang="es"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> 🔒 Herramienta de Cifrado | Ignacio Monclús López </title> <meta name="author" content="Ignacio Monclús López"> <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design. "> <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website"> <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; media-src 'self' https:; frame-src 'self' https:; connect-src 'self' https:;"> <link rel="stylesheet" href="/al-folio-main/assets/css/bootstrap.min.css?v=a4b3f509e79c54a512b890d73235ef04"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="/al-folio-main/assets/css/academicons.min.css?v=f0b7046b84e425c55f3463ac249818f5"> <link defer rel="stylesheet" href="/al-folio-main/assets/css/scholar-icons.css?v=62b2ac103a88034e6882a5be5f3e2772"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/al-folio-main/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;"> <link rel="stylesheet" href="/al-folio-main/assets/css/main.css?v=d41d8cd98f00b204e9800998ecf8427e"> <link rel="canonical" href="https://imonclus.github.io/al-folio-main/encriptador/"> <script src="/al-folio-main/assets/js/theme.js?v=5fea5159b787642c1bbc1f334d60f883"></script> <link defer rel="stylesheet" href="/al-folio-main/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
+    initTheme();
+  </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/al-folio-main/"> <span class="font-weight-bold">Ignacio</span> Monclús López </a> <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse text-right" id="navbarNav"> <ul class="navbar-nav ml-auto flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/al-folio-main/">Inicio </a> </li> <li class="nav-item "> <a class="nav-link" href="/al-folio-main/blog/"> Blog </a> </li> <li class="nav-item active"> <a class="nav-link" href="https://agente-vercel-primariaeso.vercel.app/" target="_blank" rel="noopener noreferrer"> Agent </a> </li> <li class="nav-item active"> <a class="nav-link" href="https://imonclus.github.io/jekyll-gems/" target="_blank" rel="noopener noreferrer"> Gemas </a> </li> <li class="nav-item active"> <a class="nav-link" href="https://imonclus.github.io/" target="_blank" rel="noopener noreferrer"> Proyectos </a> </li> <li class="nav-item "> <a class="nav-link" href="/al-folio-main/recursos-tac/"> Recursos EDU </a> </li> <li class="nav-item "> <a class="nav-link" href="/al-folio-main/teaching/"> Trabajo </a> </li> <li class="nav-item "> <a class="nav-link" href="/al-folio-main/ple-ignacio/"> PLE </a> </li> <li class="nav-item active"> <a class="nav-link" href="/al-folio-main/_pages/altres-webs/"> Otras webs </a> </li> <li class="nav-item "> <a class="nav-link" href="/al-folio-main/publications/"> Publicaciones </a> </li> <li class="toggle-container"> <button id="light-toggle" title="Change theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> <li class="nav-item" style="display: flex; align-items: center; margin-left: 10px;"> <div class="gtranslate_wrapper"></div> <script>
+              // Eliminar la traducción automática previa al catalán una sola vez para restablecer el español por defecto
+              if (!localStorage.getItem('googtrans_reset')) {
+                document.cookie = 'googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
+                document.cookie = 'googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; domain=' + location.hostname;
+                localStorage.setItem('googtrans_reset', 'true');
+              }
+              window.gtranslateSettings = {"default_language":"es","languages":["es","ca","en","fr","de","it"],"wrapper_selector":".gtranslate_wrapper"};
+            </script> <script src="https://cdn.gtranslate.net/widgets/latest/dropdown.js" defer></script> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">🔒 Herramienta de Cifrado</h1> <p class="post-description"></p> </header> <article> <p>Esta es una herramienta local para gestionar las páginas protegidas de tu sitio. Funciona completamente en tu navegador de forma segura.</p> <ul class="nav nav-tabs mb-4" id="tool-tabs" style="border-bottom: 2px solid var(--global-divider-color, #e0e0e0);"> <li class="nav-item"> <a class="nav-link active font-weight-bold" id="tab-encrypt" href="javascript:void(0)" onclick="switchTab('encrypt')" style="color: var(--global-theme-color, #2b9348); border-bottom: 3px solid var(--global-theme-color, #2b9348); background: transparent;">🔒 Encriptar</a> </li> <li class="nav-item"> <a class="nav-link font-weight-bold" id="tab-decrypt" href="javascript:void(0)" onclick="switchTab('decrypt')" style="color: var(--global-text-color-light, #666); background: transparent; border: none;">🔓 Desencriptar</a> </li> </ul> <div class="encryptor-container"> <div id="section-encrypt"> <div class="card p-4 shadow-sm border-0 mb-4 encryptor-card"> <div class="mb-3"> <label for="plain-content" class="form-label font-weight-bold">1. Contenido en Markdown (Texto Plano)</label> <textarea id="plain-content" class="form-control code-font" rows="8" placeholder="Escribe o pega aquí el contenido que deseas proteger con contraseña... (puedes usar cabeceras, enlaces, listas, etc.)"></textarea> </div> <div class="mb-4"> <label for="encrypt-password" class="form-label font-weight-bold">2. Contraseña de Encriptación</label> <input type="password" id="encrypt-password" class="form-control" placeholder="Introduce una contraseña segura"> </div> <button onclick="generateEncryptedContent()" class="btn btn-theme w-100 py-2 font-weight-bold">Generar Código Encriptado</button> </div> <div id="output-section" class="card p-4 shadow-sm border-0 encryptor-card" style="display: none;"> <div class="d-flex justify-content-between align-items-center mb-3"> <label class="form-label font-weight-bold m-0">3. Código para tu archivo Markdown</label> <button onclick="copyToClipboard('output-code', 'btn-copy')" class="btn btn-sm btn-outline-secondary" id="btn-copy">Copiar Código</button> </div> <p class="small text-muted mb-2">Crea un nuevo archivo en tu carpeta <code>_pages/</code> o edita uno existente, y pega el siguiente bloque completo:</p> <textarea id="output-code" class="form-control code-font" rows="8" readonly></textarea> </div> </div> <div id="section-decrypt" style="display: none;"> <div class="card p-4 shadow-sm border-0 mb-4 encryptor-card"> <div class="mb-3"> <label for="cipher-content" class="form-label font-weight-bold">1. Código Encriptado</label> <textarea id="cipher-content" class="form-control code-font" rows="6" placeholder="Pega aquí el código encriptado completo o solo el bloque de payload (ej. U2FsdGVkX19...)"></textarea> </div> <div class="mb-4"> <label for="decrypt-tool-password" class="form-label font-weight-bold">2. Contraseña de Desencriptación</label> <input type="password" id="decrypt-tool-password" class="form-control" placeholder="Introduce la contraseña correspondiente"> </div> <button onclick="generateDecryptedContent()" class="btn btn-theme w-100 py-2 font-weight-bold">Desencriptar Contenido</button> </div> <div id="decrypt-output-section" class="card p-4 shadow-sm border-0 encryptor-card" style="display: none;"> <div class="d-flex justify-content-between align-items-center mb-3"> <label class="form-label font-weight-bold m-0">3. Contenido en Markdown Recuperado</label> <button onclick="copyToClipboard('output-plain-code', 'btn-copy-plain')" class="btn btn-sm btn-outline-secondary" id="btn-copy-plain">Copiar Texto</button> </div> <textarea id="output-plain-code" class="form-control code-font" rows="8" readonly></textarea> </div> </div> </div> <style>.encryptor-container{max-width:800px;margin:0 auto}.encryptor-card{background-color:var(--global-card-bg-color,var(--global-bg-color,#fff));border:1px solid var(--global-divider-color,#e0e0e0)!important;border-radius:12px}html[data-theme='dark'] .encryptor-card{background-color:var(--global-card-bg-color,var(--global-bg-color,#1e1e1e));border-color:#3e3e3e!important}.form-label{color:var(--global-text-color,#333)}.code-font{font-family:'Courier New',Courier,monospace;font-size:.9rem;line-height:1.5}.btn-theme{background-color:var(--global-theme-color,#2b9348);color:#fff!important;transition:background-color .2s ease}.btn-theme:hover{background-color:var(--global-theme-color-hover,#1e7034)}.form-control{background-color:var(--global-bg-color,#fff);color:var(--global-text-color,#333);border:1px solid var(--global-divider-color,#ccc)}html[data-theme='dark'] .form-control{background-color:#2c2c2c;color:#fff;border-color:#444}html[data-theme='dark'] .form-control:focus{background-color:#2c2c2c;color:#fff;border-color:var(--global-theme-color,#2b9348)}.form-control:focus{border-color:var(--global-theme-color,#2b9348);box-shadow:none}.nav-tabs .nav-link{border:0;border-radius:0;padding:.75rem 1.5rem;transition:all .2s ease}</style> <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/crypto-js.min.js" integrity="sha512-a+SUDuwNzXDvz4XrIcXHuCf089/iJAoN4lmrXJg18XnduKK6YlDHNRalv4yd1N40OKI80tFidF+rqTFKGPoWFQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> <script>
+  function switchTab(tab) {
+    const tabEncrypt = document.getElementById('tab-encrypt');
+    const tabDecrypt = document.getElementById('tab-decrypt');
+    const secEncrypt = document.getElementById('section-encrypt');
+    const secDecrypt = document.getElementById('section-decrypt');
+    
+    if (tab === 'encrypt') {
+      tabEncrypt.style.color = 'var(--global-theme-color, #2b9348)';
+      tabEncrypt.style.borderBottom = '3px solid var(--global-theme-color, #2b9348)';
+      tabDecrypt.style.color = 'var(--global-text-color-light, #666)';
+      tabDecrypt.style.borderBottom = 'none';
+      
+      secEncrypt.style.display = 'block';
+      secDecrypt.style.display = 'none';
+    } else {
+      tabDecrypt.style.color = 'var(--global-theme-color, #2b9348)';
+      tabDecrypt.style.borderBottom = '3px solid var(--global-theme-color, #2b9348)';
+      tabEncrypt.style.color = 'var(--global-text-color-light, #666)';
+      tabEncrypt.style.borderBottom = 'none';
+      
+      secEncrypt.style.display = 'none';
+      secDecrypt.style.display = 'block';
+    }
+  }
+
+  function generateEncryptedContent() {
+    const plainText = document.getElementById('plain-content').value.trim();
+    const password = document.getElementById('encrypt-password').value.trim();
+    
+    if (!plainText) {
+      alert("Por favor, introduce el contenido en Markdown.");
+      return;
+    }
+    
+    if (!password) {
+      alert("Por favor, introduce una contraseña para encriptar.");
+      return;
+    }
+    
+    // Encrypt content using CryptoJS AES
+    const encrypted = CryptoJS.AES.encrypt(plainText, password).toString();
+    
+    const startTag = "{" + "%";
+    const endTag = "%" + "}";
+
+    // Generate the snippet code
+    const snippet = `---
+layout: page
+title: "Título de la Página"
+description: "Página protegida con contraseña"
+nav: true
+nav_order: 10
+---
+
+` + startTag + ` include encrypted.html payload="${encrypted}" ` + endTag;
+    
+    document.getElementById('output-code').value = snippet;
+    document.getElementById('output-section').style.display = 'block';
+    
+    // Reset copy button status
+    const copyBtn = document.getElementById('btn-copy');
+    copyBtn.innerText = 'Copiar Código';
+    copyBtn.classList.remove('btn-success');
+    copyBtn.classList.add('btn-outline-secondary');
+  }
+
+  function generateDecryptedContent() {
+    let encryptedPayload = document.getElementById('cipher-content').value.trim();
+    const password = document.getElementById('decrypt-tool-password').value.trim();
+    
+    if (!encryptedPayload) {
+      alert("Por favor, introduce el texto encriptado.");
+      return;
+    }
+    
+    if (!password) {
+      alert("Por favor, introduce la contraseña.");
+      return;
+    }
+    
+    // Auto-extract payload if full include tag is pasted
+    const regex = /payload=["']([^"']+)["']/;
+    const match = encryptedPayload.match(regex);
+    if (match && match[1]) {
+      encryptedPayload = match[1];
+    }
+    
+    try {
+      const bytes = CryptoJS.AES.decrypt(encryptedPayload, password);
+      const plaintext = bytes.toString(CryptoJS.enc.Utf8);
+      
+      if (plaintext && plaintext.length > 0) {
+        document.getElementById('output-plain-code').value = plaintext;
+        document.getElementById('decrypt-output-section').style.display = 'block';
+        
+        // Reset copy button status
+        const copyBtn = document.getElementById('btn-copy-plain');
+        copyBtn.innerText = 'Copiar Texto';
+        copyBtn.classList.remove('btn-success');
+        copyBtn.classList.add('btn-outline-secondary');
+      } else {
+        alert("Contraseña incorrecta o datos cifrados corruptos.");
+      }
+    } catch (e) {
+      alert("Error al desencriptar. Verifica la contraseña y los datos.");
+    }
+  }
+
+  function copyToClipboard(textareaId, buttonId) {
+    const copyText = document.getElementById(textareaId);
+    copyText.select();
+    copyText.setSelectionRange(0, 99999);
+    
+    navigator.clipboard.writeText(copyText.value).then(() => {
+      const copyBtn = document.getElementById(buttonId);
+      copyBtn.innerText = '¡Copiado!';
+      copyBtn.classList.remove('btn-outline-secondary');
+      copyBtn.classList.add('btn-success');
+    }).catch(err => {
+      console.error('Error al copiar: ', err);
+    });
+  }
+</script> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Ignacio Monclús López. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>. </div> </footer> <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> <script src="/al-folio-main/assets/js/bootstrap.bundle.min.js"></script> <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script> <script defer src="/al-folio-main/assets/js/masonry.js?v=a0db7e5d5c70cc3252b3138b0c91dcaf" type="text/javascript"></script> <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script> <script defer src="/al-folio-main/assets/js/zoom.js?v=85ddb88934d28b74e78031fd54cf8308"></script> <script src="/al-folio-main/assets/js/no_defer.js?v=2781658a0a2b13ed609542042a859126"></script> <script defer src="/al-folio-main/assets/js/common.js?v=c15de51d4bb57887caa2c21988d97279"></script> <script defer src="/al-folio-main/assets/js/copy_code.js?v=c8a01c11a92744d44b093fc3bda915df" type="text/javascript"></script> <script defer src="/al-folio-main/assets/js/jupyter_new_tab.js?v=d9f17b6adc2311cbabd747f4538bb15f"></script> <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script> <script async src="https://badge.dimensions.ai/badge.js"></script> <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script> <script src="/al-folio-main/assets/js/mathjax-setup.js?v=a5bb4e6a542c546dd929b24b8b236dfd"></script> <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6" crossorigin="anonymous"></script> <script defer src="/al-folio-main/assets/js/progress-bar.js?v=2f30e0e6801ea8f5036fa66e1ab0a71a" type="text/javascript"></script> <script src="/al-folio-main/assets/js/vanilla-back-to-top.min.js?v=f40d453793ff4f64e238e420181a1d17"></script> <script>
+    addBackToTop();
+  </script> </body> </html>
