@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Otras webs"
+permalink: /altres-webs/
 nav: true
 nav_order: 9
 ---
