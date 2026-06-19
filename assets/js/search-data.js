@@ -63,7 +63,7 @@ ninja.data = [{
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/al-folio-main/_pages/altres-webs/";
+            window.location.href = "/al-folio-main/altres-webs/";
           },
         },{id: "nav-publicaciones",
           title: "Publicaciones",
