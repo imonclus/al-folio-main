@@ -62,7 +62,7 @@ posts_in_search: true
 bib_search: true
 
 # Dimensions
-max_width: 930px
+max_width: 1400px
 
 # -----------------------------------------------------------------------------
 # Open Graph & Schema.org
@@ -155,6 +155,10 @@ collections:
     output: true
   teachings:
     output: true
+  recursos_tac:
+    output: false
+  ple_ignacio:
+    output: false
 
 # -----------------------------------------------------------------------------
 # Jekyll settings

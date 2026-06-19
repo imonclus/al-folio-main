@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /teaching/
-title: "enseñando en"
+title: "Trabajo"
 description: Cursos, materiales, calendario, and recursos parar clases que hago.
 nav: true
 nav_order: 6

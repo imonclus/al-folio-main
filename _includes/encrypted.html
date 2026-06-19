@@ -1,0 +1,162 @@
+<div id="encrypted-container-{{ include.id | default: 'main' }}">
+  <div class="encrypted-card" id="lock-card-{{ include.id | default: 'main' }}">
+    <div class="encrypted-lock-icon">🔒</div>
+    <h3>Contenido Protegido</h3>
+    <p>Introduce la contraseña para ver el contenido de esta página.</p>
+    <input
+      type="password"
+      id="decrypt-password-{{ include.id | default: 'main' }}"
+      placeholder="Contraseña"
+      onkeydown="if(event.key === 'Enter') decryptPage_{{ include.id | default: 'main' }}()"
+    />
+    <button onclick="decryptPage_{{ include.id | default: 'main' }}()">Acceder</button>
+    <div id="decrypt-error-{{ include.id | default: 'main' }}" class="encrypted-error" style="display: none">
+      Contraseña incorrecta. Inténtalo de nuevo.
+    </div>
+  </div>
+  <div id="decrypted-content-{{ include.id | default: 'main' }}" style="display: none" class="decrypted-markdown-content"></div>
+</div>
+
+<style>
+  .encrypted-card {
+    max-width: 450px;
+    margin: 3rem auto;
+    padding: 2.5rem 2rem;
+    border-radius: 12px;
+    border: 1px solid var(--global-divider-color, #e0e0e0);
+    background-color: var(--global-card-bg-color, var(--global-bg-color, #ffffff));
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+
+  html[data-theme="dark"] .encrypted-card {
+    border-color: #3e3e3e;
+    background-color: var(--global-card-bg-color, var(--global-bg-color, #1e1e1e));
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  }
+
+  .encrypted-card h3 {
+    margin-top: 1.2rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: var(--global-text-color, #333);
+  }
+
+  .encrypted-card p {
+    color: var(--global-text-color-light, #666);
+    font-size: 0.95rem;
+    margin-bottom: 1.8rem;
+  }
+
+  html[data-theme="dark"] .encrypted-card p {
+    color: #b0b0b0;
+  }
+
+  .encrypted-card input[type="password"] {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border-radius: 6px;
+    border: 1px solid var(--global-divider-color, #ccc);
+    background-color: var(--global-bg-color, #fff);
+    color: var(--global-text-color, #333);
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    outline: none;
+    transition: border-color 0.2s ease;
+  }
+
+  html[data-theme="dark"] .encrypted-card input[type="password"] {
+    border-color: #444;
+    background-color: #2c2c2c;
+    color: #fff;
+  }
+
+  .encrypted-card input[type="password"]:focus {
+    border-color: var(--global-theme-color, #2b9348);
+  }
+
+  .encrypted-card button {
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 6px;
+    border: none;
+    background-color: var(--global-theme-color, #2b9348);
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+
+  .encrypted-card button:hover {
+    background-color: var(--global-theme-color-hover, #1e7034);
+  }
+
+  .encrypted-error {
+    color: #d9534f;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+
+  .encrypted-lock-icon {
+    font-size: 3rem;
+    color: var(--global-theme-color, #2b9348);
+  }
+</style>
+
+<!-- Load CryptoJS and Marked.js from CDN -->
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/crypto-js.min.js"
+  integrity="sha512-a+SUDuwNzXDvz4XrIcXHuCf089/iJAoN4lmrXJg18XnduKK6YlDHNRalv4yd1N40OKI80tFidF+rqTFKGPoWFQ=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+></script>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+<script>
+  function decryptPage_{{ include.id | default: 'main' }}() {
+    const payload = "{{ include.payload }}";
+    const password = document.getElementById('decrypt-password-{{ include.id | default: 'main' }}').value;
+    const errorDiv = document.getElementById('decrypt-error-{{ include.id | default: 'main' }}');
+    const contentDiv = document.getElementById('decrypted-content-{{ include.id | default: 'main' }}');
+    const lockCard = document.getElementById('lock-card-{{ include.id | default: 'main' }}');
+
+    try {
+      const bytes = CryptoJS.AES.decrypt(payload, password);
+      const plaintext = bytes.toString(CryptoJS.enc.Utf8);
+
+      if (plaintext && plaintext.length > 0) {
+        // Render Markdown content to HTML
+        contentDiv.innerHTML = marked.parse(plaintext);
+        contentDiv.style.display = 'block';
+        lockCard.style.display = 'none';
+
+        // Post-process links to open in a new tab
+        const links = contentDiv.getElementsByTagName('a');
+        for (let i = 0; i < links.length; i++) {
+          links[i].setAttribute('target', '_blank');
+          links[i].setAttribute('rel', 'noopener noreferrer');
+        }
+
+        // Save password in session storage so user doesn't have to re-type on reload/back
+        sessionStorage.setItem('enc_pwd_' + window.location.pathname, password);
+      } else {
+        errorDiv.style.display = 'block';
+      }
+    } catch (e) {
+      errorDiv.style.display = 'block';
+    }
+  }
+
+  // Auto-decrypt on load if password was previously entered in this session
+  window.addEventListener('DOMContentLoaded', () => {
+    const savedPassword = sessionStorage.getItem('enc_pwd_' + window.location.pathname);
+    if (savedPassword) {
+      document.getElementById('decrypt-password-{{ include.id | default: 'main' }}').value = savedPassword;
+      decryptPage_{{ include.id | default: 'main' }}();
+    }
+  });
+</script>

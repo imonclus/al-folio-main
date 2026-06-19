@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: publicaciones
+title: Publicaciones
 description: Artículos, reflexiones y recursos sobre educación y metodologías activas.
 nav: true
 nav_order: 10
