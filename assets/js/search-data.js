@@ -23,8 +23,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/al-folio-main/_pages/agent-vercel/";
           },
-        },{id: "nav-agent",
-          title: "Agent",
+        },{id: "nav-progedmus",
+          title: "ProgEdMus",
           description: "",
           section: "Navigation",
           handler: () => {
