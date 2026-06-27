@@ -30,6 +30,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/al-folio-main/_pages/prog-ed-mus/";
           },
+        },{id: "nav-prompting",
+          title: "Prompting",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/al-folio-main/_pages/promting/";
+          },
         },{id: "nav-gemas",
           title: "Gemas",
           description: "",
