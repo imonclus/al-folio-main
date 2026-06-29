@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/al-folio-main/_pages/agent-vercel/";
           },
+        },{id: "nav-calaix",
+          title: "Calaix",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/al-folio-main/_pages/calaix/";
+          },
         },{id: "nav-progedmus",
           title: "ProgEdMus",
           description: "",
@@ -86,7 +93,29 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/al-folio-main/publications/";
           },
-        },{id: "post-publicaciones-recientes-en-linkedin",
+        },{id: "post-nuevo-articulo02-copia-md-zone",
+        
+          title: "Nuevo Articulo02   copia.md:zone",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/al-folio-main/blog/2026/nuevo-articulo02-copia.md-Zone/";
+          
+        },
+      },{id: "post-publicaciones-recientes-en-linkedin",
+        
+          title: "Publicaciones recientes en Linkedin",
+        
+        description: "Nuevo artículo publicado en mi blog",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/al-folio-main/blog/2026/nuevo-articulo03/";
+          
+        },
+      },{id: "post-publicaciones-recientes-en-linkedin",
         
           title: "Publicaciones recientes en Linkedin",
         
@@ -110,6 +139,9 @@ ninja.data = [{
         },
       },{id: "news-muy-orgulloso-de-publicar-mi-tercer-artículo-espero-que-sea-de-su-interés",
           title: 'Muy orgulloso de publicar mi tercer artículo. Espero que sea de su interés....',
+          description: "",
+          section: "News",},{id: "news-muy-orgulloso-de-publicar-mi-cuarto-artículo-espero-que-sea-de-su-interés",
+          title: 'Muy orgulloso de publicar mi cuarto artículo. Espero que sea de su interés....',
           description: "",
           section: "News",},{id: "ple_ignacio-bancos-de-sonidos",
           title: 'Bancos de sonidos',
