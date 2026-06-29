@@ -93,15 +93,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/al-folio-main/publications/";
           },
-        },{id: "post-nuevo-articulo02-copia-md-zone",
+        },{id: "post-publicaciones-recientes-en-linkedin",
         
-          title: "Nuevo Articulo02   copia.md:zone",
+          title: "Publicaciones recientes en Linkedin",
         
-        description: "",
+        description: "Nuevo artículo publicado en mi blog",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/al-folio-main/blog/2026/nuevo-articulo02-copia.md-Zone/";
+            window.location.href = "/al-folio-main/blog/2026/nuevo-articulo04/";
           
         },
       },{id: "post-publicaciones-recientes-en-linkedin",
