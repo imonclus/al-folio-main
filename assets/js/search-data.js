@@ -101,17 +101,6 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/al-folio-main/blog/2026/nuevo-articulo04/";
-          
-        },
-      },{id: "post-publicaciones-recientes-en-linkedin",
-        
-          title: "Publicaciones recientes en Linkedin",
-        
-        description: "Nuevo artículo publicado en mi blog",
-        section: "Posts",
-        handler: () => {
-          
             window.location.href = "/al-folio-main/blog/2026/nuevo-articulo03/";
           
         },
