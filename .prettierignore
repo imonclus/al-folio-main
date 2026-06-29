@@ -13,3 +13,5 @@ _scripts/*
 _data/citations.yml
 assets/json/ple-ignacio.json
 assets/json/recursos-tac.json
+_pages/ple-ignacio.md
+_pages/recursos-tac.md
