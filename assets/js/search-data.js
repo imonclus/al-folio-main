@@ -93,9 +93,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/al-folio-main/publications/";
           },
-        },{id: "post-publicaciones-recientes-en-linkedin",
+        },{id: "post-nuevo-artículo-sobre-neurociencia-y-enseñanza-tic",
         
-          title: "Publicaciones recientes en Linkedin",
+          title: "Nuevo artículo sobre neurociencia y enseñanza TIC",
         
         description: "Nuevo artículo publicado en mi blog",
         section: "Posts",
