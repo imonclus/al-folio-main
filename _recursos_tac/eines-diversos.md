@@ -7,22 +7,21 @@ order: 10
 Al llarg del mes d’abril a la [Biblioteca](http://clic.xtec.cat//qv_web/ca/biblio.htm)
 dels Quaderns Virtuals s’han publicat o actualitzat aquests quaderns:
 
-
 **Per a primària**
 
-* *El relleu* (ciències experimentals): [http://clic.xtec.cat/qv_biblio/act.jsp?activity_id=142](http://clic.xtec.cat/qv_biblio/act.jsp?activity_id=142)
+- _El relleu_ (ciències experimentals): [http://clic.xtec.cat/qv_biblio/act.jsp?activity_id=142](http://clic.xtec.cat/qv_biblio/act.jsp?activity_id=142)
 
-* *Els paisatges naturals* (ciències experimentals): [http://clic.xtec.cat/qv_biblio/act.jsp?activity_id=144](http://clic.xtec.cat/qv_biblio/act.jsp?activity_id=144)
+- _Els paisatges naturals_ (ciències experimentals): [http://clic.xtec.cat/qv_biblio/act.jsp?activity_id=144](http://clic.xtec.cat/qv_biblio/act.jsp?activity_id=144)
 
-* *La reproducció dels éssers vius* (ciències experimentals): [http://clic.xtec.cat/qv_biblio/act.jsp?activity_id=143](http://clic.xtec.cat/qv_biblio/act.jsp?activity_id=143)
+- _La reproducció dels éssers vius_ (ciències experimentals): [http://clic.xtec.cat/qv_biblio/act.jsp?activity_id=143](http://clic.xtec.cat/qv_biblio/act.jsp?activity_id=143)
 
-* *A l’època dels romans* (ciències socials): [http://clic.xtec.cat/qv_biblio/act.jsp?activity_id=145](http://clic.xtec.cat/qv_biblio/act.jsp?activity_id=145)
+- _A l’època dels romans_ (ciències socials): [http://clic.xtec.cat/qv_biblio/act.jsp?activity_id=145](http://clic.xtec.cat/qv_biblio/act.jsp?activity_id=145)
 
 **Internivells, primària, secundària, educació d’adults, formació permanent**
 
-* *El temps de les dones* (ciències socials, per al dia de la dona treballadora): [http://clic.xtec.cat/qv_biblio/act.jsp?activity_id=146](http://clic.xtec.cat/qv_biblio/act.jsp?activity_id=146)
+- _El temps de les dones_ (ciències socials, per al dia de la dona treballadora): [http://clic.xtec.cat/qv_biblio/act.jsp?activity_id=146](http://clic.xtec.cat/qv_biblio/act.jsp?activity_id=146)
 
-* Prova d’accés al Grau Professional de Música: [http://clic.xtec.cat/qv_biblio/act.jsp?activity_id=127](http://clic.xtec.cat/qv_biblio/act.jsp?activity_id=127)
+- Prova d’accés al Grau Professional de Música: [http://clic.xtec.cat/qv_biblio/act.jsp?activity_id=127](http://clic.xtec.cat/qv_biblio/act.jsp?activity_id=127)
 
 ---
 
@@ -32,7 +31,7 @@ Tots aquests materials mantenen unamateixa estructura i presentació. Van acompa
 
 ---
 
-El treball de recerca d’un alumne de l’IES Eugeni d’Ors ha obtingut el primer premi de Batxillerat en el **[13è concurs de Webs de Ciència](http://www.xtec.cat/escola/web_cien/13edicio/acta.htm)**. 
+El treball de recerca d’un alumne de l’IES Eugeni d’Ors ha obtingut el primer premi de Batxillerat en el **[13è concurs de Webs de Ciència](http://www.xtec.cat/escola/web_cien/13edicio/acta.htm)**.
 
 ---
 

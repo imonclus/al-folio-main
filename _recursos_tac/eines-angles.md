@@ -16,7 +16,7 @@ Des de l’espai web de **[dictationsonline.com](https://www.educa.jcyl.es/crol/
 
 ---
 
-**[Agenda Web](http://www.agendaweb.org/)** és un espai que ens proposa cents d’exercicis per aprendre anglès online: gramàtica, verbs, *readings*, *listenings* , vídeos, sopes de lletres, fonètica, traduccions, jocs, cançons i molt més.
+**[Agenda Web](http://www.agendaweb.org/)** és un espai que ens proposa cents d’exercicis per aprendre anglès online: gramàtica, verbs, _readings_, _listenings_ , vídeos, sopes de lletres, fonètica, traduccions, jocs, cançons i molt més.
 
 ---
 

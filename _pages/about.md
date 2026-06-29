@@ -9,7 +9,7 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: 
+  more_info:
     # <p>6506*****</p>
     # <p>Una calle del mundo</p>
     # <p>Barcelona, España 08008</p>
@@ -28,10 +28,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-¡Hola! Soy un profesor de educación primaria radicado en Barcelona. 
+¡Hola! Soy un profesor de educación primaria radicado en Barcelona.
 
 Me apasiona la enseñanza, la innovación educativa y el desarrollo integral de mis alumnos. He creado este espacio para compartir recursos, proyectos de clase y reflexiones sobre la educación actual.
 
-Actualmente busco nuevas formas de integrar dinámicas activas y aprendizaje cooperativo en el aula. 
+Actualmente busco nuevas formas de integrar dinámicas activas y aprendizaje cooperativo en el aula.
 
 Siéntete libre de explorar mis últimos proyectos y publicaciones en el blog, o de ponerte en contacto conmigo a través de mis redes sociales.

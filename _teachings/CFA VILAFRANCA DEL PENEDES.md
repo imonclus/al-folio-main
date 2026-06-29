@@ -29,7 +29,7 @@ Este curso culmina la formación recibida en Competic 2. Para aprobar los alumno
 
 ## Libros de texto
 
-Se puede consultar la programación y el material en: 
+Se puede consultar la programación y el material en:
 url: [Servei de noves oportunitats i formació al llarg de la vida](https://projectes.xtec.cat/xarxadults/ensenyaments/nivells/propostes-pedagogiques-i-orientacions/competic-3/)
 
 ## Evaluación

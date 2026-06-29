@@ -109,14 +109,19 @@
                   {%- endif %}
                   {% if p.redirect %}
                     <a class="nav-link" href="{{ p.redirect }}" target="_blank" rel="noopener noreferrer">
+                      {{- p.title }}
+                      {% if page.url contains p.url %}
+                        <span class="sr-only">(current)</span>
+                      {% endif %}
+                    </a>
                   {% else %}
                     <a class="nav-link" href="{{ url | relative_url }}">
+                      {{- p.title }}
+                      {% if page.url contains p.url %}
+                        <span class="sr-only">(current)</span>
+                      {% endif %}
+                    </a>
                   {% endif %}
-                    {{- p.title }}
-                    {% if page.url contains p.url %}
-                      <span class="sr-only">(current)</span>
-                    {% endif %}
-                  </a>
                 </li>
               {% endif %}
             {% endif %}
@@ -149,7 +154,11 @@
                 document.cookie = 'googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; domain=' + location.hostname;
                 localStorage.setItem('googtrans_reset', 'true');
               }
-              window.gtranslateSettings = {"default_language":"es","languages":["es","ca","en","fr","de","it"],"wrapper_selector":".gtranslate_wrapper"};
+              window.gtranslateSettings = {
+                default_language: 'es',
+                languages: ['es', 'ca', 'en', 'fr', 'de', 'it'],
+                wrapper_selector: '.gtranslate_wrapper',
+              };
             </script>
             <script src="https://cdn.gtranslate.net/widgets/latest/dropdown.js" defer></script>
           </li>

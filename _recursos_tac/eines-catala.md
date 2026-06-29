@@ -14,9 +14,9 @@ order: 7
 
 **[Una mà de contes](https://www.3cat.cat/tv3/sx3/una-ma-de-contes/)** és una pàgina web on podem trobar contes molt variats i en diverses llengües:
 
-* [català](https://www.3cat.cat/tv3/sx3/una-ma-de-contes/videos/)
-* [castellà](https://www.3cat.cat/tv3/sx3/una-ma-de-contes/videos/castella/)
-* [aranès](https://www.3cat.cat/tv3/sx3/una-ma-de-contes/videos/aranes/)
+- [català](https://www.3cat.cat/tv3/sx3/una-ma-de-contes/videos/)
+- [castellà](https://www.3cat.cat/tv3/sx3/una-ma-de-contes/videos/castella/)
+- [aranès](https://www.3cat.cat/tv3/sx3/una-ma-de-contes/videos/aranes/)
 
 Podem llegir i imprimir contes clàssics, faules, biografies d’autors, contes en vers, etc. També podem enviar els nostres propiscontes.
 
@@ -36,4 +36,4 @@ Enllaç gratuït a l’[Enciclopèdia Catalana](https://www.enciclopedia.cat/)
 
 ---
 
-**La Biblioteca Municipal de Cocentaina (El Comtat)** ens presenta un **[bloc de Poesia Infantil i Juvenil](http://bibliopoemes.blogspot.com/)** on segons les seves paraules podem trobar: “*Poemes infantils, embarbussaments, endevinalles, cançons infantils, llibres ieditorials de poesia infantil i juvenil, activitats sobre poesiainfantil i juvenil a l’aula i a la família, webs de poesia infantil,poetes infantils. Publicació de poemes infantils, realitzades pelsxiquets/es que hi vullguen col•laborar amb aquest blog*”.
+**La Biblioteca Municipal de Cocentaina (El Comtat)** ens presenta un **[bloc de Poesia Infantil i Juvenil](http://bibliopoemes.blogspot.com/)** on segons les seves paraules podem trobar: “_Poemes infantils, embarbussaments, endevinalles, cançons infantils, llibres ieditorials de poesia infantil i juvenil, activitats sobre poesiainfantil i juvenil a l’aula i a la família, webs de poesia infantil,poetes infantils. Publicació de poemes infantils, realitzades pelsxiquets/es que hi vullguen col•laborar amb aquest blog_”.

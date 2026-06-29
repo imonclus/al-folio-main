@@ -8,7 +8,6 @@ order: 3
 
 Aquí podemos encontrar infinidad de sonidos de buena calidad, libres de derechos, de todos los tipos y colores. Basta con hacer clic con el botón derecho y “Guardar como…” para descargar la pista de audio deseada en formato WAV. No requiere registro.
 
-
 [Ministerio de Educación y Cultura](http://recursostic.educacion.es/bancoimagenes/web/)
 
 En la web del Ministerio de Educación puedes encontrar miles de sonidos gratuitos, además de imágenes, videos y animaciones. Tiene unos 6000 sonidos de audio gratuitos, donde podremos encontrar desde sonidos de animales hasta voces femeninas de computadora. Todos los audios están disponibles bajo licencia Creative Commons y no requiere registro para descargar. Todos los audios están disponibles en formato WAV, MP3 y OGG.

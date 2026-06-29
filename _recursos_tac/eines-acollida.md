@@ -13,10 +13,10 @@ order: 3
 Aquest projecte síntesi de K@mpus i @collida pretén facilitarl’assoliment de les competències bàsiques a l’alumnat de les aulesobertes de secundària i els nouvinguts de les aules d’acollida.
 [Espurn@](http://www.espurna.cat/) està dividit en quatre espais diferenciats:
 
-* [Kampus](http://www.espurna.cat/kampus/) (aules obertes),
-* [Kalidoscopi](http://www.espurna.cat/kalidoscopi/) (aules acollida secundària),
-* [Kitxalla](http://www.espurna.cat/kitxalla/) (aules acollida primària) i
-* [Klaustre](http://www.espurna.cat/klaustre/) (àrea professorat).
+- [Kampus](http://www.espurna.cat/kampus/) (aules obertes),
+- [Kalidoscopi](http://www.espurna.cat/kalidoscopi/) (aules acollida secundària),
+- [Kitxalla](http://www.espurna.cat/kitxalla/) (aules acollida primària) i
+- [Klaustre](http://www.espurna.cat/klaustre/) (àrea professorat).
 
 En tots ells podem trobar moltes propostes didàctiques per aplicar a l’aula.
 

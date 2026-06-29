@@ -3,6 +3,7 @@ title: "PLE (Entorno Personal de Aprendizaje)"
 id: "home"
 order: 1
 ---
+
 Un Entorno Personal de Aprendizaje (PLE) es un conjunto de herramientas, recursos y conexiones que cada persona utiliza para aprender y gestionar su propio conocimiento de forma autónoma.
 
 ¿Cuáles son sus elementos clave?
