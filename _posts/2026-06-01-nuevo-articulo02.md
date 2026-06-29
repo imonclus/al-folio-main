@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Publicaciones recientes en Linkedin
-date: 2026-05-30 08:00:00+0200
+date: 2026-06-01 08:00:00+0200
 description: Nuevo artículo publicado en mi blog
 ---
 
