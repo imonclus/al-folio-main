@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Publicaciones recientes en Linkedin
+title: Nuevo artículo sobre neurociencia y enseñanza TIC
 date: 2026-06-28 08:00:00+0200
 description: Nuevo artículo publicado en mi blog
 ---
