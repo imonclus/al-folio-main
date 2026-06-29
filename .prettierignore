@@ -15,3 +15,5 @@ assets/json/ple-ignacio.json
 assets/json/recursos-tac.json
 _pages/ple-ignacio.md
 _pages/recursos-tac.md
+_posts/**/*.md
+_news/**/*.md
