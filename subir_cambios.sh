@@ -1,8 +1,10 @@
 #!/bin/bash
 
-cd /home/imonclus/docker/al-folio-main || exit
+# Asegurarse de ejecutar desde el directorio donde reside el script
+cd "$(dirname "$0")" || exit
 
 echo "📦 Detectando archivos modificados..."
+git status -s
 git add .
 
 echo ""
